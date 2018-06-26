@@ -1,0 +1,91 @@
+/*---------------------------------BOOTSTRAP-------------------------------*/
+.radio label, .checkbox label{
+    padding-left: 0;
+    padding-right: 20px;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+    margin-left: 0;
+    margin-right: -20px;
+}
+/*-------------------------------VC_COMPOSER-------------------------------*/
+.wpb_column.vc_col-xs-1, .wpb_column.vc_col-xs-10, .wpb_column.vc_col-xs-11, .wpb_column.vc_col-xs-12, .wpb_column.vc_col-xs-2, .wpb_column.vc_col-xs-3, .wpb_column.vc_col-xs-4, .wpb_column.vc_col-xs-5, .wpb_column.vc_col-xs-6, .wpb_column.vc_col-xs-7, .wpb_column.vc_col-xs-8, .wpb_column.vc_col-xs-9{
+    float: right;
+}
+@media (min-width: 768px) {
+    .wpb_column.vc_col-sm-1, .wpb_column.vc_col-sm-10, .wpb_column.vc_col-sm-11, .wpb_column.vc_col-sm-12, .wpb_column.vc_col-sm-2, .wpb_column.vc_col-sm-3, .wpb_column.vc_col-sm-4, .wpb_column.vc_col-sm-5, .wpb_column.vc_col-sm-6, .wpb_column.vc_col-sm-7, .wpb_column.vc_col-sm-8, .wpb_column.vc_col-sm-9{
+        float: right;
+    }
+}
+@media (min-width: 992px) {
+    .wpb_column.vc_col-md-1, .wpb_column.vc_col-md-10, .wpb_column.vc_col-md-11, .wpb_column.vc_col-md-12, .wpb_column.vc_col-md-2, .wpb_column.vc_col-md-3, .wpb_column.vc_col-md-4, .wpb_column.vc_col-md-5, .wpb_column.vc_col-md-6, .wpb_column.vc_col-md-7, .wpb_column.vc_col-md-8, .wpb_column.vc_col-md-9{
+        float: right;
+    }
+}
+@media (min-width: 1200px) {
+    .wpb_column.vc_col-lg-1, .wpb_column.vc_col-lg-10, .wpb_column.vc_col-lg-11, .wpb_column.vc_col-lg-12, .wpb_column.vc_col-lg-2, .wpb_column.vc_col-lg-3, .wpb_column.vc_col-lg-4, .wpb_column.vc_col-lg-5, .wpb_column.vc_col-lg-6, .wpb_column.vc_col-lg-7, .wpb_column.vc_col-lg-8, .wpb_column.vc_col-lg-9{
+        float: right;
+    }
+}
+/*---------------------------------WISHLIST--------------------------------*/
+.wishlist_table tr td.product-thumbnail, .wishlist_table tr td.product-name, .wishlist_table tr td.wishlist-name, .wishlist_table tr td.wishlist-privacy, .woocommerce table.wishlist_table tfoot td{
+    text-align: right;
+}
+/*----------------------------------THEMES---------------------------------*/
+/* product page */
+.product-item[class^="col-xs-"],
+.product-item[class*=" col-xs-"]{
+    float: right;
+}
+@media (min-width: 768px){
+    .product-item[class^="col-sm-"],
+    .product-item[class*=" col-sm-"]{
+        float: right;
+    }
+}
+@media (min-width: 992px){
+    .product-item[class^="col-md-"],
+    .product-item[class*=" col-md-"]{
+        float: right;
+    }
+}
+@media (min-width: 1200px){
+    .product-item[class^="col-lg-"],
+    .product-item[class*=" col-lg-"]{
+        float: right;
+    }
+}
+@media (min-width: 1500px){
+    .product-item[class^="col-bg-"],
+    .product-item[class*=" col-bg-"]{
+        float: right;
+    }
+}
+@media (max-width: 479px){
+    .product-item[class^="col-ts-"],
+    .product-item[class*=" col-ts-"]{
+        float: right;
+    }
+}
+/* product single */
+.flex-viewport{
+    direction: ltr;
+}
+.entry-summary a.compare .blockUI.blockOverlay{
+    left: auto !important;
+    right: 0;
+}
+/* attribute */
+.entry-summary .quantity::before{
+    float: right;
+}
+.entry-summary .variations .label{
+    padding: 0 0 0 10px;
+    text-align: right;
+}
+.entry-summary .variations .reset_variations{
+    margin-left: 0;
+    margin-right: 10px;
+}
+[dir='rtl'] .slick-slider.slick-vertical .slick-slide{
+    float: none !important;
+}

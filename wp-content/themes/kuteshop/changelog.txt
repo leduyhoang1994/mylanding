@@ -1,0 +1,18 @@
+-----------------------
+Ver 3.0.2
+-----------------------
+UPDATE: Kuteshop Toolkit V1.0.1
+UPDATE: Update supports RTL
+FIXED:  Fix select preview options
+-----------------------
+Ver 3.0.1
+-----------------------
+UPDATE: Fix content vendor.
+UPDATE File: /wp-content/themes/kuteshop/woocommerce.php
+UPDATE File: /wp-content/themes/kuteshop/assets/css/style.css
+UPDATE File: /wp-content/themes/kuteshop/framework/includes/woo-functions.php
+UPDATE File: /wp-content/themes/kuteshop/woo-templates/content-product.php
+-----------------------
+Ver 3.0.0
+-----------------------
+Initial release

@@ -1,0 +1,1542 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-23 08:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: index.php:69
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:29 templates/headers/header-style-07.php:75
+msgid "MAIN MENU"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Your search here&hellip;"
+msgstr ""
+
+#: 404.php:37
+msgid "Error"
+msgstr ""
+
+#: 404.php:38
+msgid " 404 "
+msgstr ""
+
+#: 404.php:39
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:42
+msgid "We&acute;re sorry but the page you are looking for does nor exist."
+msgstr ""
+
+#: 404.php:44
+msgid "You could return to"
+msgstr ""
+
+#: 404.php:46
+msgid " Home page"
+msgstr ""
+
+#: 404.php:47
+msgid " or using"
+msgstr ""
+
+#: 404.php:48
+msgid " search!"
+msgstr ""
+
+#: content-none.php:1
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:4
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: content-none.php:4
+msgid "Get started here"
+msgstr ""
+
+#: content-none.php:6
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:9
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: page.php:69 templates/blog/blog-single.php:45
+#: templates/blog/blog-standard.php:98
+msgid "Pages:"
+msgstr ""
+
+#: page.php:73
+msgid "Page"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Top Left Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Top Right Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Top Center Menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Sticky Menu"
+msgstr ""
+
+#: functions.php:52 framework/settings/framework-config.php:405
+#: framework/settings/framework-config.php:1343
+msgid "Vertical Menu"
+msgstr ""
+
+#: functions.php:111
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:113 functions.php:123 functions.php:133
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:121
+msgid "Shop Widget Area"
+msgstr ""
+
+#: functions.php:131
+msgid "Product Widget Area"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Montserrat, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:153
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: comments.php:24
+msgid "Your name"
+msgstr ""
+
+#: comments.php:25
+msgid "Your email"
+msgstr ""
+
+#: comments.php:27
+msgid "Your Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "Send Message"
+msgstr ""
+
+#: comments.php:33
+msgid "Leave your Comment"
+msgstr ""
+
+#. %s: post title
+#: comments.php:43
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:47
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:77 framework/includes/theme-functions.php:452
+msgid "Prev"
+msgstr ""
+
+#: comments.php:78 framework/includes/theme-functions.php:453
+#: framework/includes/woo-functions.php:563
+msgid "Next"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#: framework/framework.php:128
+msgid "Don&rsquo;t show this popup again"
+msgstr ""
+
+#: woo-templates/content-product-list.php:54
+#, php-format
+msgid "Item Code: #%s"
+msgstr ""
+
+#: woo-templates/content-product-list.php:59
+msgid "Availability: "
+msgstr ""
+
+#: woo-templates/content-product-list.php:76
+#: templates/blog/blog-standard.php:105
+#: woo-templates/product-styles/content-product-style-13.php:66
+#: templates/blog/blog-styles/content-blog-style2.php:15
+msgid "..."
+msgstr ""
+
+#: woo-templates/quantity-input.php:43
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: templates/headers/header-style-03.php:68
+msgid "Wishlist"
+msgstr ""
+
+#: templates/headers/header-style-11.php:63
+msgid "MENU"
+msgstr ""
+
+#: templates/blog/blog-single.php:8 templates/blog/blog-standard.php:60
+msgctxt "Tác giả:"
+msgid "By: "
+msgstr ""
+
+#: templates/blog/blog-single.php:20 templates/blog/blog-standard.php:31
+#: templates/blog/blog-styles/content-blog-style1.php:21
+msgid "No Comments"
+msgstr ""
+
+#: templates/blog/blog-single.php:21 templates/blog/blog-standard.php:32
+#: templates/blog/blog-standard.php:73
+#: templates/blog/blog-styles/content-blog-style1.php:22
+msgid "1 Comment"
+msgstr ""
+
+#: templates/blog/blog-single.php:22 templates/blog/blog-standard.php:33
+#: templates/blog/blog-standard.php:74
+#: templates/blog/blog-styles/content-blog-style1.php:23
+msgid "% Comments"
+msgstr ""
+
+#: templates/blog/blog-single.php:32 templates/blog/blog-standard.php:43
+#: templates/blog/blog-standard.php:84
+msgid " Sticky"
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post
+#: templates/blog/blog-single.php:40 templates/blog/blog-standard.php:93
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: templates/blog/blog-standard.php:17
+#: framework/settings/framework-config.php:171
+msgid "By "
+msgstr ""
+
+#: templates/blog/blog-standard.php:72
+msgid "0 Comment"
+msgstr ""
+
+#: templates/blog/blog-standard.php:113
+#: templates/blog/blog-styles/content-blog-style3.php:16
+#: templates/blog/blog-styles/content-blog-style5.php:15
+#: templates/blog/blog-styles/content-blog-style1.php:30
+msgid "Read more"
+msgstr ""
+
+#: framework/settings/framework-config.php:89
+msgid "Kuteshop Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:164
+#: framework/settings/framework-config.php:1314
+msgid "Theme Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:171
+msgid "KuteThemes"
+msgstr ""
+
+#: framework/settings/framework-config.php:190
+msgid "General"
+msgstr ""
+
+#: framework/settings/framework-config.php:195
+msgid "Main Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:200
+#: framework/settings/framework-config.php:1320
+msgid "Logo"
+msgstr ""
+
+#: framework/settings/framework-config.php:205
+#: framework/settings/framework-config.php:1325
+msgid "Main Color"
+msgstr ""
+
+#: framework/settings/framework-config.php:212
+msgid "Google Map API Key"
+msgstr ""
+
+#: framework/settings/framework-config.php:213
+msgid "Enter your Google Map API key. "
+msgstr ""
+
+#: framework/settings/framework-config.php:213
+msgid "How to get?"
+msgstr ""
+
+#: framework/settings/framework-config.php:218
+msgid "Enable Meta Box Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:220
+msgid "Enable for using Themes setting each single page."
+msgstr ""
+
+#: framework/settings/framework-config.php:225
+msgid "Use image Lazy Load"
+msgstr ""
+
+#: framework/settings/framework-config.php:231
+msgid "Newsletter Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:236
+msgid "Enable Popup Newsletter"
+msgstr ""
+
+#: framework/settings/framework-config.php:242
+msgid "Popup Background"
+msgstr ""
+
+#: framework/settings/framework-config.php:248
+msgid "Title"
+msgstr ""
+
+#: framework/settings/framework-config.php:254
+msgid "Highlight"
+msgstr ""
+
+#: framework/settings/framework-config.php:260
+#: framework/includes/megamenu/nav_edit_custom_walker.php:226
+msgid "Description"
+msgstr ""
+
+#: framework/settings/framework-config.php:266
+msgid "Input placeholder text"
+msgstr ""
+
+#: framework/settings/framework-config.php:267
+msgid "Enter your email..."
+msgstr ""
+
+#: framework/settings/framework-config.php:273
+msgid "Delay time"
+msgstr ""
+
+#: framework/settings/framework-config.php:280
+msgid "Enable Poppup on Mobile"
+msgstr ""
+
+#: framework/settings/framework-config.php:288
+msgid "Widget Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:293
+msgid "Multi Widget"
+msgstr ""
+
+#: framework/settings/framework-config.php:294
+msgid "Add Widget"
+msgstr ""
+
+#: framework/settings/framework-config.php:295
+msgid "Add New Field"
+msgstr ""
+
+#: framework/settings/framework-config.php:300
+msgid "Name Widget"
+msgstr ""
+
+#: framework/settings/framework-config.php:308
+msgid "Customs JS/CSS"
+msgstr ""
+
+#: framework/settings/framework-config.php:312
+msgid "Custom JS"
+msgstr ""
+
+#: framework/settings/framework-config.php:321
+#: framework/settings/framework-config.php:326
+#: framework/settings/framework-config.php:1395
+msgid "Header Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:331
+msgid "Main Menu Sticky"
+msgstr ""
+
+#: framework/settings/framework-config.php:336
+#: framework/settings/framework-config.php:1401
+msgid "Header Layout"
+msgstr ""
+
+#: framework/settings/framework-config.php:337
+#: framework/settings/framework-config.php:1402
+msgid "Select a header layout"
+msgstr ""
+
+#: framework/settings/framework-config.php:347
+#: framework/settings/framework-config.php:1412
+msgid "Header Text Box"
+msgstr ""
+
+#: framework/settings/framework-config.php:355
+#: framework/settings/framework-config.php:1420
+msgid "Header Service"
+msgstr ""
+
+#: framework/settings/framework-config.php:356
+#: framework/settings/framework-config.php:1421
+msgid "Add New"
+msgstr ""
+
+#: framework/settings/framework-config.php:357
+#: framework/settings/framework-config.php:1422
+msgid "Header Service Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:365
+#: framework/settings/framework-config.php:1430
+#: framework/includes/megamenu/nav_menu_custom_fields.php:22
+msgid "Image"
+msgstr ""
+
+#: framework/settings/framework-config.php:370
+#: framework/settings/framework-config.php:1435
+msgid "Text"
+msgstr ""
+
+#: framework/settings/framework-config.php:377
+#: framework/settings/framework-config.php:1442
+msgid "Header Phone Number"
+msgstr ""
+
+#: framework/settings/framework-config.php:385
+msgid "Select Social"
+msgstr ""
+
+#: framework/settings/framework-config.php:397
+#: framework/settings/framework-config.php:1333
+msgid "Vertical Menu Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:411
+#: framework/settings/framework-config.php:1348
+msgid "Vertical Menu Alway Open"
+msgstr ""
+
+#: framework/settings/framework-config.php:412
+#: framework/settings/framework-config.php:1349
+msgid "Vertical menu will be alway open"
+msgstr ""
+
+#: framework/settings/framework-config.php:418
+#: framework/settings/framework-config.php:1355
+msgid "Vertical Menu Title"
+msgstr ""
+
+#: framework/settings/framework-config.php:421
+#: framework/settings/framework-config.php:1358
+msgid "CATEGORIES"
+msgstr ""
+
+#: framework/settings/framework-config.php:427
+#: framework/settings/framework-config.php:1364
+msgid "Vertical Menu Button show all text"
+msgstr ""
+
+#: framework/settings/framework-config.php:430
+#: framework/settings/framework-config.php:1367
+#: framework/includes/theme-functions.php:254
+msgid "All Categories"
+msgstr ""
+
+#: framework/settings/framework-config.php:436
+#: framework/settings/framework-config.php:1373
+msgid "Vertical Menu Button close text"
+msgstr ""
+
+#: framework/settings/framework-config.php:439
+#: framework/settings/framework-config.php:1376
+msgid "Close"
+msgstr ""
+
+#: framework/settings/framework-config.php:445
+#: framework/settings/framework-config.php:446
+#: framework/settings/framework-config.php:1382
+#: framework/settings/framework-config.php:1383
+msgid "The number of visible vertical menu items"
+msgstr ""
+
+#: framework/settings/framework-config.php:460
+#: framework/settings/framework-config.php:1451
+msgid "Footer Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:466
+#: framework/settings/framework-config.php:1457
+msgid "Select Footer Builder"
+msgstr ""
+
+#: framework/settings/framework-config.php:474
+msgid "Blog Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:479
+msgid "Blog Page"
+msgstr ""
+
+#: framework/settings/framework-config.php:484
+#: framework/settings/framework-config.php:520
+#: framework/settings/framework-config.php:1505
+msgid "Single Post Sidebar Position"
+msgstr ""
+
+#: framework/settings/framework-config.php:485
+msgid "Select sidebar position on Blog."
+msgstr ""
+
+#: framework/settings/framework-config.php:496
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/settings/framework-config.php:503
+msgid "Show Full Content"
+msgstr ""
+
+#: framework/settings/framework-config.php:508
+msgid "Using Placeholder"
+msgstr ""
+
+#: framework/settings/framework-config.php:515
+msgid "Single Post"
+msgstr ""
+
+#: framework/settings/framework-config.php:521
+msgid "Select sidebar position on Single Post."
+msgstr ""
+
+#: framework/settings/framework-config.php:532
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: framework/settings/framework-config.php:541
+msgid "Enable Related"
+msgstr ""
+
+#: framework/settings/framework-config.php:544
+#: framework/settings/framework-config.php:560
+msgid "Related items per row on Desktop"
+msgstr ""
+
+#: framework/settings/framework-config.php:545
+#: framework/settings/framework-config.php:734
+#: framework/settings/framework-config.php:871
+#: framework/settings/framework-config.php:974
+#: framework/settings/framework-config.php:1077
+msgid "(Screen resolution of device >= 1500px )"
+msgstr ""
+
+#: framework/settings/framework-config.php:550
+#: framework/settings/framework-config.php:566
+#: framework/settings/framework-config.php:582
+#: framework/settings/framework-config.php:598
+#: framework/settings/framework-config.php:614
+#: framework/settings/framework-config.php:630
+#: framework/settings/framework-config.php:739
+#: framework/settings/framework-config.php:754
+#: framework/settings/framework-config.php:769
+#: framework/settings/framework-config.php:784
+#: framework/settings/framework-config.php:799
+#: framework/settings/framework-config.php:814
+#: framework/settings/framework-config.php:876
+#: framework/settings/framework-config.php:891
+#: framework/settings/framework-config.php:906
+#: framework/settings/framework-config.php:921
+#: framework/settings/framework-config.php:936
+#: framework/settings/framework-config.php:951
+#: framework/settings/framework-config.php:979
+#: framework/settings/framework-config.php:994
+#: framework/settings/framework-config.php:1009
+#: framework/settings/framework-config.php:1024
+#: framework/settings/framework-config.php:1039
+#: framework/settings/framework-config.php:1054
+#: framework/settings/framework-config.php:1082
+#: framework/settings/framework-config.php:1097
+#: framework/settings/framework-config.php:1112
+#: framework/settings/framework-config.php:1127
+#: framework/settings/framework-config.php:1142
+#: framework/settings/framework-config.php:1157
+msgid "1 item"
+msgstr ""
+
+#: framework/settings/framework-config.php:551
+#: framework/settings/framework-config.php:567
+#: framework/settings/framework-config.php:583
+#: framework/settings/framework-config.php:599
+#: framework/settings/framework-config.php:615
+#: framework/settings/framework-config.php:631
+#: framework/settings/framework-config.php:740
+#: framework/settings/framework-config.php:755
+#: framework/settings/framework-config.php:770
+#: framework/settings/framework-config.php:785
+#: framework/settings/framework-config.php:800
+#: framework/settings/framework-config.php:815
+#: framework/settings/framework-config.php:877
+#: framework/settings/framework-config.php:892
+#: framework/settings/framework-config.php:907
+#: framework/settings/framework-config.php:922
+#: framework/settings/framework-config.php:937
+#: framework/settings/framework-config.php:952
+#: framework/settings/framework-config.php:980
+#: framework/settings/framework-config.php:995
+#: framework/settings/framework-config.php:1010
+#: framework/settings/framework-config.php:1025
+#: framework/settings/framework-config.php:1040
+#: framework/settings/framework-config.php:1055
+#: framework/settings/framework-config.php:1083
+#: framework/settings/framework-config.php:1098
+#: framework/settings/framework-config.php:1113
+#: framework/settings/framework-config.php:1128
+#: framework/settings/framework-config.php:1143
+#: framework/settings/framework-config.php:1158
+msgid "2 items"
+msgstr ""
+
+#: framework/settings/framework-config.php:552
+#: framework/settings/framework-config.php:568
+#: framework/settings/framework-config.php:584
+#: framework/settings/framework-config.php:600
+#: framework/settings/framework-config.php:616
+#: framework/settings/framework-config.php:632
+#: framework/settings/framework-config.php:741
+#: framework/settings/framework-config.php:756
+#: framework/settings/framework-config.php:771
+#: framework/settings/framework-config.php:786
+#: framework/settings/framework-config.php:801
+#: framework/settings/framework-config.php:816
+#: framework/settings/framework-config.php:878
+#: framework/settings/framework-config.php:893
+#: framework/settings/framework-config.php:908
+#: framework/settings/framework-config.php:923
+#: framework/settings/framework-config.php:938
+#: framework/settings/framework-config.php:953
+#: framework/settings/framework-config.php:981
+#: framework/settings/framework-config.php:996
+#: framework/settings/framework-config.php:1011
+#: framework/settings/framework-config.php:1026
+#: framework/settings/framework-config.php:1041
+#: framework/settings/framework-config.php:1056
+#: framework/settings/framework-config.php:1084
+#: framework/settings/framework-config.php:1099
+#: framework/settings/framework-config.php:1114
+#: framework/settings/framework-config.php:1129
+#: framework/settings/framework-config.php:1144
+#: framework/settings/framework-config.php:1159
+msgid "3 items"
+msgstr ""
+
+#: framework/settings/framework-config.php:553
+#: framework/settings/framework-config.php:569
+#: framework/settings/framework-config.php:585
+#: framework/settings/framework-config.php:601
+#: framework/settings/framework-config.php:617
+#: framework/settings/framework-config.php:633
+#: framework/settings/framework-config.php:742
+#: framework/settings/framework-config.php:757
+#: framework/settings/framework-config.php:772
+#: framework/settings/framework-config.php:787
+#: framework/settings/framework-config.php:802
+#: framework/settings/framework-config.php:817
+#: framework/settings/framework-config.php:879
+#: framework/settings/framework-config.php:894
+#: framework/settings/framework-config.php:909
+#: framework/settings/framework-config.php:924
+#: framework/settings/framework-config.php:939
+#: framework/settings/framework-config.php:954
+#: framework/settings/framework-config.php:982
+#: framework/settings/framework-config.php:997
+#: framework/settings/framework-config.php:1012
+#: framework/settings/framework-config.php:1027
+#: framework/settings/framework-config.php:1042
+#: framework/settings/framework-config.php:1057
+#: framework/settings/framework-config.php:1085
+#: framework/settings/framework-config.php:1100
+#: framework/settings/framework-config.php:1115
+#: framework/settings/framework-config.php:1130
+#: framework/settings/framework-config.php:1145
+#: framework/settings/framework-config.php:1160
+msgid "4 items"
+msgstr ""
+
+#: framework/settings/framework-config.php:554
+#: framework/settings/framework-config.php:570
+#: framework/settings/framework-config.php:586
+#: framework/settings/framework-config.php:602
+#: framework/settings/framework-config.php:618
+#: framework/settings/framework-config.php:634
+#: framework/settings/framework-config.php:743
+#: framework/settings/framework-config.php:758
+#: framework/settings/framework-config.php:773
+#: framework/settings/framework-config.php:788
+#: framework/settings/framework-config.php:803
+#: framework/settings/framework-config.php:818
+#: framework/settings/framework-config.php:880
+#: framework/settings/framework-config.php:895
+#: framework/settings/framework-config.php:910
+#: framework/settings/framework-config.php:925
+#: framework/settings/framework-config.php:940
+#: framework/settings/framework-config.php:955
+#: framework/settings/framework-config.php:983
+#: framework/settings/framework-config.php:998
+#: framework/settings/framework-config.php:1013
+#: framework/settings/framework-config.php:1028
+#: framework/settings/framework-config.php:1043
+#: framework/settings/framework-config.php:1058
+#: framework/settings/framework-config.php:1086
+#: framework/settings/framework-config.php:1101
+#: framework/settings/framework-config.php:1116
+#: framework/settings/framework-config.php:1131
+#: framework/settings/framework-config.php:1146
+#: framework/settings/framework-config.php:1161
+msgid "5 items"
+msgstr ""
+
+#: framework/settings/framework-config.php:555
+#: framework/settings/framework-config.php:571
+#: framework/settings/framework-config.php:587
+#: framework/settings/framework-config.php:603
+#: framework/settings/framework-config.php:619
+#: framework/settings/framework-config.php:635
+#: framework/settings/framework-config.php:744
+#: framework/settings/framework-config.php:759
+#: framework/settings/framework-config.php:774
+#: framework/settings/framework-config.php:789
+#: framework/settings/framework-config.php:804
+#: framework/settings/framework-config.php:819
+#: framework/settings/framework-config.php:881
+#: framework/settings/framework-config.php:896
+#: framework/settings/framework-config.php:911
+#: framework/settings/framework-config.php:926
+#: framework/settings/framework-config.php:941
+#: framework/settings/framework-config.php:956
+#: framework/settings/framework-config.php:984
+#: framework/settings/framework-config.php:999
+#: framework/settings/framework-config.php:1014
+#: framework/settings/framework-config.php:1029
+#: framework/settings/framework-config.php:1044
+#: framework/settings/framework-config.php:1059
+#: framework/settings/framework-config.php:1087
+#: framework/settings/framework-config.php:1102
+#: framework/settings/framework-config.php:1117
+#: framework/settings/framework-config.php:1132
+#: framework/settings/framework-config.php:1147
+#: framework/settings/framework-config.php:1162
+msgid "6 items"
+msgstr ""
+
+#: framework/settings/framework-config.php:561
+#: framework/settings/framework-config.php:749
+#: framework/settings/framework-config.php:886
+#: framework/settings/framework-config.php:989
+#: framework/settings/framework-config.php:1092
+msgid "(Screen resolution of device >= 1200px < 1500px )"
+msgstr ""
+
+#: framework/settings/framework-config.php:576
+msgid "Related items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:577
+#: framework/settings/framework-config.php:764
+#: framework/settings/framework-config.php:901
+#: framework/settings/framework-config.php:1004
+#: framework/settings/framework-config.php:1107
+msgid "(Screen resolution of device >=992px and < 1200px )"
+msgstr ""
+
+#: framework/settings/framework-config.php:592
+msgid "Related items per row on portrait tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:593
+#: framework/settings/framework-config.php:779
+#: framework/settings/framework-config.php:916
+#: framework/settings/framework-config.php:1019
+#: framework/settings/framework-config.php:1122
+msgid "(Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#: framework/settings/framework-config.php:608
+#: framework/settings/framework-config.php:624
+msgid "Related items per row on Mobile"
+msgstr ""
+
+#: framework/settings/framework-config.php:609
+#: framework/settings/framework-config.php:794
+#: framework/settings/framework-config.php:931
+#: framework/settings/framework-config.php:1034
+#: framework/settings/framework-config.php:1137
+msgid "(Screen resolution of device >=480  add < 768px)"
+msgstr ""
+
+#: framework/settings/framework-config.php:625
+#: framework/settings/framework-config.php:809
+#: framework/settings/framework-config.php:946
+#: framework/settings/framework-config.php:1049
+#: framework/settings/framework-config.php:1152
+msgid "(Screen resolution of device < 480px)"
+msgstr ""
+
+#: framework/settings/framework-config.php:646
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/settings/framework-config.php:651
+msgid "Shop Page"
+msgstr ""
+
+#: framework/settings/framework-config.php:655
+msgid "Shop Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:660
+msgid "Products Newness"
+msgstr ""
+
+#: framework/settings/framework-config.php:666
+msgid "Shop Page Sidebar Position"
+msgstr ""
+
+#: framework/settings/framework-config.php:667
+msgid "Select sidebar position on Shop Page."
+msgstr ""
+
+#: framework/settings/framework-config.php:678
+msgid "Shop Sidebar"
+msgstr ""
+
+#: framework/settings/framework-config.php:685
+msgid "Shop Default Layout"
+msgstr ""
+
+#: framework/settings/framework-config.php:686
+msgid "Select default layout for shop, product category archive."
+msgstr ""
+
+#: framework/settings/framework-config.php:696
+msgid "Products perpage"
+msgstr ""
+
+#: framework/settings/framework-config.php:697
+msgid "Number of products on shop page."
+msgstr ""
+
+#: framework/settings/framework-config.php:703
+msgid "Product Shop Layout"
+msgstr ""
+
+#: framework/settings/framework-config.php:704
+msgid "Select a Product layout in shop page"
+msgstr ""
+
+#: framework/settings/framework-config.php:713
+msgid "Image Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:718
+#: framework/settings/framework-config.php:724
+msgid "Shop Banner"
+msgstr ""
+
+#: framework/settings/framework-config.php:725
+msgid "Add Banner"
+msgstr ""
+
+#: framework/settings/framework-config.php:730
+msgid "Carousel Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:733
+#: framework/settings/framework-config.php:748
+msgid "Items per row on Desktop( For grid mode )"
+msgstr ""
+
+#: framework/settings/framework-config.php:763
+msgid "Items per row on landscape tablet( For grid mode )"
+msgstr ""
+
+#: framework/settings/framework-config.php:778
+msgid "Items per row on portrait tablet( For grid mode )"
+msgstr ""
+
+#: framework/settings/framework-config.php:793
+#: framework/settings/framework-config.php:808
+msgid "Items per row on Mobile( For grid mode )"
+msgstr ""
+
+#: framework/settings/framework-config.php:826
+msgid "Single product"
+msgstr ""
+
+#: framework/settings/framework-config.php:831
+msgid "Single Product Sidebar Position"
+msgstr ""
+
+#: framework/settings/framework-config.php:832
+msgid "Select sidebar position on single product page."
+msgstr ""
+
+#: framework/settings/framework-config.php:846
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: framework/settings/framework-config.php:854
+msgid "Enable Product Share"
+msgstr ""
+
+#: framework/settings/framework-config.php:860
+msgid "Cross sell"
+msgstr ""
+
+#: framework/settings/framework-config.php:863
+#: framework/settings/framework-config.php:867
+msgid "Cross sell title"
+msgstr ""
+
+#: framework/settings/framework-config.php:866
+msgid "You may be interested in..."
+msgstr ""
+
+#: framework/settings/framework-config.php:870
+#: framework/settings/framework-config.php:885
+msgid "Cross sell items per row on Desktop"
+msgstr ""
+
+#: framework/settings/framework-config.php:900
+msgid "Cross sell items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:915
+msgid "Cross sell items per row on portrait tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:930
+#: framework/settings/framework-config.php:945
+msgid "Cross sell items per row on Mobile"
+msgstr ""
+
+#: framework/settings/framework-config.php:963
+#: framework/settings/framework-config.php:969
+msgid "Related Products"
+msgstr ""
+
+#: framework/settings/framework-config.php:966
+#: framework/settings/framework-config.php:970
+msgid "Related products title"
+msgstr ""
+
+#: framework/settings/framework-config.php:973
+#: framework/settings/framework-config.php:988
+msgid "Related products items per row on Desktop"
+msgstr ""
+
+#: framework/settings/framework-config.php:1003
+msgid "Related products items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:1018
+msgid "Related product items per row on portrait tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:1033
+#: framework/settings/framework-config.php:1048
+msgid "Related products items per row on Mobile"
+msgstr ""
+
+#: framework/settings/framework-config.php:1066
+msgid "Up sells Products"
+msgstr ""
+
+#: framework/settings/framework-config.php:1069
+msgid "Up sells title"
+msgstr ""
+
+#: framework/settings/framework-config.php:1072
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: framework/settings/framework-config.php:1073
+msgid "Up sells products title"
+msgstr ""
+
+#: framework/settings/framework-config.php:1076
+#: framework/settings/framework-config.php:1091
+msgid "Up sells items per row on Desktop"
+msgstr ""
+
+#: framework/settings/framework-config.php:1106
+msgid "Up sells items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:1121
+msgid "Up sells items per row on portrait tablet"
+msgstr ""
+
+#: framework/settings/framework-config.php:1136
+#: framework/settings/framework-config.php:1151
+msgid "Up sells items per row on Mobile"
+msgstr ""
+
+#: framework/settings/framework-config.php:1172
+#: framework/settings/framework-config.php:1184
+msgid "Social Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:1177
+msgid "Social User"
+msgstr ""
+
+#: framework/settings/framework-config.php:1182
+msgid "Social"
+msgstr ""
+
+#: framework/settings/framework-config.php:1183
+msgid "Add New Social"
+msgstr ""
+
+#: framework/settings/framework-config.php:1189
+msgid "Title Social"
+msgstr ""
+
+#: framework/settings/framework-config.php:1195
+msgid "Link Social"
+msgstr ""
+
+#: framework/settings/framework-config.php:1201
+msgid "Icon Social"
+msgstr ""
+
+#: framework/settings/framework-config.php:1210
+msgid "Typography Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:1216
+msgid "Font Family"
+msgstr ""
+
+#: framework/settings/framework-config.php:1226
+msgid "Font Size"
+msgstr ""
+
+#: framework/settings/framework-config.php:1232
+msgid "Line Height"
+msgstr ""
+
+#: framework/settings/framework-config.php:1239
+msgid "Backup Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:1244
+msgid "Backup Field"
+msgstr ""
+
+#: framework/settings/framework-config.php:1260
+msgid "Custom Theme Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:1267
+msgid "Banner Settings"
+msgstr ""
+
+#: framework/settings/framework-config.php:1273
+msgid "Enable Banner"
+msgstr ""
+
+#: framework/settings/framework-config.php:1282
+msgid "Background Banner"
+msgstr ""
+
+#: framework/settings/framework-config.php:1295
+msgid "Height Banner"
+msgstr ""
+
+#: framework/settings/framework-config.php:1301
+msgid "Margin Top"
+msgstr ""
+
+#: framework/settings/framework-config.php:1307
+msgid "Margin Bottom"
+msgstr ""
+
+#: framework/settings/framework-config.php:1469
+msgid "Custom Footer Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:1475
+msgid "FOOTER STYLE"
+msgstr ""
+
+#: framework/settings/framework-config.php:1480
+msgid "Footer Style"
+msgstr ""
+
+#: framework/settings/framework-config.php:1481
+msgid "Select a Footer Style"
+msgstr ""
+
+#: framework/settings/framework-config.php:1494
+msgid "Custom Page Side Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:1506
+msgid "Select sidebar position on Page."
+msgstr ""
+
+#: framework/settings/framework-config.php:1517
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/settings/framework-config.php:1525
+msgid "Extra Class"
+msgstr ""
+
+#: framework/settings/framework-config.php:1536
+msgid "Custom Testimonial Options"
+msgstr ""
+
+#: framework/settings/framework-config.php:1547
+msgid "Avatar"
+msgstr ""
+
+#: framework/settings/framework-config.php:1548
+msgid "Add Avatar"
+msgstr ""
+
+#: framework/settings/framework-config.php:1553
+msgid "Name"
+msgstr ""
+
+#: framework/settings/framework-config.php:1558
+msgid "Position"
+msgstr ""
+
+#: framework/settings/framework-config.php:1581
+msgid "Icon Taxonomy"
+msgstr ""
+
+#: framework/includes/theme-functions.php:45
+msgid "ago"
+msgstr ""
+
+#: framework/includes/theme-functions.php:230
+msgid "Logout"
+msgstr ""
+
+#: framework/includes/theme-functions.php:237
+msgid "Login"
+msgstr ""
+
+#: framework/includes/theme-functions.php:296
+#: framework/includes/theme-functions.php:327
+msgid "I&#39;m searching for..."
+msgstr ""
+
+#: framework/includes/theme-functions.php:417
+msgid "Facebook"
+msgstr ""
+
+#: framework/includes/theme-functions.php:423
+msgid "Twitter"
+msgstr ""
+
+#: framework/includes/theme-functions.php:429
+msgid "Google+"
+msgstr ""
+
+#: framework/includes/theme-functions.php:435
+msgid "Pinterest"
+msgstr ""
+
+#: framework/includes/theme-functions.php:568
+msgid "No Product"
+msgstr ""
+
+#: framework/includes/woo-functions.php:386
+msgid "Show 05"
+msgstr ""
+
+#: framework/includes/woo-functions.php:391
+msgid "Show 10"
+msgstr ""
+
+#: framework/includes/woo-functions.php:396
+msgid "Show 12"
+msgstr ""
+
+#: framework/includes/woo-functions.php:401
+msgid "Show 15"
+msgstr ""
+
+#: framework/includes/woo-functions.php:406
+msgid "Show All"
+msgstr ""
+
+#: framework/includes/woo-functions.php:410
+msgid "Select value"
+msgstr ""
+
+#: framework/includes/woo-functions.php:527
+#, php-format
+msgid "%1$s out of %2$s"
+msgstr ""
+
+#: framework/includes/woo-functions.php:535
+#, php-format
+msgid "based on %s rating"
+msgid_plural "Based on %s ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/woo-functions.php:542
+msgid "write a preview"
+msgstr ""
+
+#: framework/includes/woo-functions.php:562
+msgid "Previous"
+msgstr ""
+
+#: framework/includes/woo-functions.php:628
+msgid "New"
+msgstr ""
+
+#: framework/includes/woo-functions.php:744
+msgid "SHOPPING CART"
+msgstr ""
+
+#: framework/includes/woo-functions.php:745
+#, php-format
+msgid "%1$s item(s) - "
+msgstr ""
+
+#: framework/includes/woo-functions.php:760
+#: framework/includes/woo-functions.php:793
+msgid "Cart"
+msgstr ""
+
+#: framework/includes/woo-functions.php:766
+msgid "My Cart"
+msgstr ""
+
+#: framework/includes/woo-functions.php:788
+msgid "CART:"
+msgstr ""
+
+#: framework/includes/woo-functions.php:839
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/includes/woo-functions.php:839
+msgid "Item"
+msgstr ""
+
+#: framework/includes/woo-functions.php:842
+#: framework/includes/woo-functions.php:845
+#, php-format
+msgid "%s removed."
+msgstr ""
+
+#: framework/includes/woo-functions.php:843
+msgid "Undo?"
+msgstr ""
+
+#: framework/includes/woo-functions.php:850
+msgid "Security check error!"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:205
+msgid "Browse:"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:206
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:207
+msgid "Home"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:208
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:209
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: framework/includes/classes/breadcrumbs.php:211
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s is the page number.
+#: framework/includes/classes/breadcrumbs.php:213
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: framework/includes/classes/breadcrumbs.php:215
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: framework/includes/classes/breadcrumbs.php:217
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:596
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:612
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:628
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:643
+#: framework/includes/classes/breadcrumbs.php:668
+#: framework/includes/classes/breadcrumbs.php:691
+#: framework/includes/classes/breadcrumbs.php:714
+#: framework/includes/classes/breadcrumbs.php:976
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:644
+#: framework/includes/classes/breadcrumbs.php:692
+#: framework/includes/classes/breadcrumbs.php:979
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:645
+#: framework/includes/classes/breadcrumbs.php:982
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: framework/includes/classes/breadcrumbs.php:669
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:19
+msgid "Icon Settings"
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:20
+msgid "None"
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:21
+msgid "Font icon"
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:36
+msgid "Select Icon"
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:68
+#: framework/includes/megamenu/nav_menu_custom_fields.php:68
+msgid "Image preview"
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:70
+msgid "Icon Image "
+msgstr ""
+
+#: framework/includes/megamenu/nav_menu_custom_fields.php:76
+msgid "Mega menu settings"
+msgstr ""
+
+#: framework/includes/megamenu/walker.php:305
+msgid "Add a menu"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: framework/includes/megamenu/nav_edit_custom_walker.php:89
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: framework/includes/megamenu/nav_edit_custom_walker.php:93
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:130
+msgid "sub item"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:146
+msgid "Move up"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:159
+msgid "Move down"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:162
+#: framework/includes/megamenu/nav_edit_custom_walker.php:164
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:172
+msgid "URL"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:182
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:191
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:203
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:208
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:217
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:230
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:236
+msgid "Move"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:237
+msgid "Up one"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:238
+msgid "Down one"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:241
+msgid "To the top"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:247
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:261
+msgid "Remove"
+msgstr ""
+
+#: framework/includes/megamenu/nav_edit_custom_walker.php:265
+msgid "Cancel"
+msgstr ""
+
+#: framework/includes/megamenu/megamenu.php:135
+msgid "Font Awesome"
+msgstr ""
+
+#: framework/includes/megamenu/megamenu.php:163
+msgid "No Font"
+msgstr ""
+
+#. Name of the theme
+msgid "Kuteshop"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Kuteshop Shop is a simple but modern responsive WordPress theme that oozes "
+"high-street sophistication. Its sharp lines and flat design style has been "
+"designed to be pixel perfect. Simply load your photography and you can have "
+"an online shop to matches the likes of Prada, Gucci and Yves St Laurent."
+msgstr ""
+
+#. URI of the theme
+msgid "http://kuteshop.kutethemes.net/"
+msgstr ""
+
+#. Author of the theme
+msgid "Kutethemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://kutethemes.com/"
+msgstr ""
