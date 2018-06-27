@@ -338,70 +338,17 @@ function buy_now( $atts ){
 		<div id="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog modal-lg">
 			<!-- Modal content-->
-			<form action="" method="POST">
-				<div class="modal-content main-content woocommerce">
-					<?php $checkout = WC()->checkout(); wc_get_template( 'custom-action/checkout-form.php', array( 'checkout' => $checkout ) ); ?>
-					<div class="modal-header">
-						<div class="col-md-12"><h4 class="modal-title">Mua hàng nhanh</h4></div>
-					</div>
-					<div class="modal-body">
-							<div class="row" style="margin-bottom: 20px">
-								<div class="col-md-12">
-									<center><h5 class="modal-title"><?= $product->get_name() ?></h5></center>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-4 hidden-xs">
-									<img border="0" class="click-to-buy" src="<?= $image ?>" width="100%" height="auto">
-								</div>
-								<div class="col-md-8">
-									<div class="col-md-6"><input type="text" style="width: 100%;" name="name" placeholder="Họ tên" required></div>
-									<div class="col-md-6"><input type="text" style="width: 100%;" name="phone" placeholder="Số điện thoại" required></div>
-									<div class="col-md-12"><input type="email" style="width: 100%; margin-top:10px" name="email" placeholder="Hòm thư điện tử" required></div>
-									<div class="col-md-12"><input type="text" style="width: 100%; margin-top:10px" name="address" placeholder="Địa chỉ" required></div>
-									<div class="col-md-12"><center>Chọn số lượng</center></div>
-									<div class="col-md-12">
-										<div class="input-group" style="text-align: center; margin-top:10px">
-											<span class="input-group-btn">
-												<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-													<span class="dashicons dashicons-minus"></span>
-												</button>
-											</span>
-											<input style="width: 100px; display: inline-block; text-align:center" type="text" name="quant[1]" id="count-production" class="form-control input-number" value="1" min="1" max="20">
-											<span class="input-group-btn">
-												<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
-													<span class="dashicons dashicons-plus"></span>
-												</button>
-											</span>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<input id="pro-money" type="hidden" value="<?= $product->get_price() ?>">
-										<input type="hidden" name="product-id" value="<?= $attr['product_id'] ?>">
-										<input type="hidden" name="create-order" value="">
-										Giá : <b><?= number_format($product->get_price(), 0) ?> VNĐ</b>
-									</div>
-									<div class="col-md-12">
-										
-										Tổng : <b><?= number_format($product->get_price(), 0) ?> VNĐ</b> x <span id="count-temp">1</span> = <b id="total-money"><?= number_format($product->get_price(), 0) ?> VNĐ</b>
-									</div>
-									<div class="col-md-12 hidden-md hidden-lg">
-										<img border="0" class="click-to-buy" src="<?= $image ?>" width="100%" height="auto">
-									</div>
-								</div>
-								<div class="col-md-12">
-									<input type="submit" href="" class="button" style="width: 100%; background-color: #f2a812" value="Mua ngay">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6"></div>
-							</div>
-					</div>
-					<div class="modal-footer">
-						<button type="button" name="create-order" class="btn btn-default" data-dismiss="modal">Đóng</button>
-					</div>
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="col-md-12"><h4 class="modal-title">Mua hàng nhanh</h4></div>
 				</div>
-			</form>
+				<div class="modal-body woocommerce">
+					<!-- <?php $checkout = WC()->checkout(); wc_get_template( 'custom-action/checkout-form.php', array( 'checkout' => $checkout ) ); ?> -->
+				</div>
+				<div class="modal-footer">
+					<button type="button" name="create-order" class="btn btn-default" data-dismiss="modal">Đóng</button>
+				</div>
+			</div>
 		</div>
 		</div>
 		<div class="modal fade" id="successModal" role="dialog">
