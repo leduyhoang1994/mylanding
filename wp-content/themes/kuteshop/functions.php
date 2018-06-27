@@ -340,7 +340,6 @@ function buy_now( $atts ){
 			<!-- Modal content-->
 			<form action="" method="POST">
 				<div class="modal-content main-content woocommerce">
-					<?php $checkout = WC()->checkout(); wc_get_template( 'custom-action/checkout-form.php', array( 'checkout' => $checkout ) ); ?>
 					<div class="modal-header">
 						<div class="col-md-12"><h4 class="modal-title">Mua hàng nhanh</h4></div>
 					</div>
