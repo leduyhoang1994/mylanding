@@ -34,6 +34,10 @@
 	h2 {
 		font-size: 23px;
 	}
+
+	.header-middle-inner{
+		padding: 0px;
+	}
 }
 </style>
 <?php
