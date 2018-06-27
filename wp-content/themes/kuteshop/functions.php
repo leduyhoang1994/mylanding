@@ -397,7 +397,7 @@ function buy_now( $atts ){
 							</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" name="create-order" class="btn btn-default" data-dismiss="modal">Đóng</button>
+						<button type="button" name="create-order" class="btn btn-default" id="close-order">Đóng</button>
 					</div>
 				</div>
 			</form>
