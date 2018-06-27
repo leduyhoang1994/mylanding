@@ -101,8 +101,4 @@ $(document).ready(function(e) {
     if (findGetParameter("buy") == "success") {
         $("#successModal").modal();
     }
-
-    $("#close-order").click(function(e) {
-        $("#myModal").modal("hide");
-    });
 })

@@ -312,7 +312,7 @@ function buy_now( $atts ){
     $attr = shortcode_atts( array(
 		'product_id' => null,
         'id' => 6160,
-        'width' => 'auto',
+        'width' => '100',
 		'height' => '100',
 		'align' => 'center'
 	), $atts );
@@ -325,15 +325,15 @@ function buy_now( $atts ){
 	$image = '';
 	if ( has_post_thumbnail( $product->get_id() ) ) {
 		$attachment_ids[0] = get_post_thumbnail_id( $product->get_id() );
-		$attachment = wp_get_attachment_image_src($attachment_ids[0], 'full' );
+		$attachment = wp_get_attachment_image_src($attachment_ids[0], '' );
 		$image = $attachment[0];
 	}
 
 	// var_dump($product);
 
-	$image_attributes = wp_get_attachment_image_src( $attachment_id = $attr['id'] );
+	$image_attributes = wp_get_attachment_image_src( $attachment_id = $attr['id'], 'full' );
 	ob_start(); ?>
-		<img border="0" style="cursor:pointer" class="click-to-buy" src="<?= $image_attributes[0] ?>" width="<?= $attr['width'] ?>" height="<?= $attr['height'] ?>">
+		<div border="0" class="click-to-buy" style="margin:auto; cursor:pointer; width:<?= $attr["width"] ?>px; height:<?= $attr['height'] ?>px; background-size: contain; background-repeat: no-repeat; background-image: url(<?= $image_attributes[0] ?>)"></div>
 		<!-- Modal -->
 		<div id="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog modal-lg">
@@ -397,7 +397,7 @@ function buy_now( $atts ){
 							</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" name="create-order" class="btn btn-default" id="close-order">Đóng</button>
+						<button type="button" name="create-order" class="btn btn-default" data-dismiss="modal">Đóng</button>
 					</div>
 				</div>
 			</form>
