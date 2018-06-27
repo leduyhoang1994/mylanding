@@ -11,8 +11,8 @@ if ( is_front_page() ) {
 	$header_border_class = 'has-border';
 }
 ?>
-<header id="header" class="hidden header style1 cart-style1 <?php echo esc_attr( $header_border_class ); ?>">
-    <div class="header-top">
+<header id="header" class="header style1 cart-style1 <?php echo esc_attr( $header_border_class ); ?>">
+    <div class="header-top hidden">
         <div class="container">
             <div class="top-bar-menu left">
 				<?php
@@ -47,7 +47,7 @@ if ( is_front_page() ) {
 			?>
         </div>
     </div>
-    <div class="header-middle">
+    <div class="header-middle hidden">
         <div class="container">
             <div class="header-middle-inner">
                 <div class="logo">

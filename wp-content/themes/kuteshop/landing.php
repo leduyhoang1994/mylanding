@@ -14,9 +14,6 @@
 .blog-thumb a {
     width: 100%;
 }
-header{
-    display: none;
-}
 .vc_custom_heading{
     /* padding: 20px 0px; */
 }
