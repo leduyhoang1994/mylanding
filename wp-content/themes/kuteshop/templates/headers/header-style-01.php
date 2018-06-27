@@ -47,16 +47,16 @@ if ( is_front_page() ) {
 			?>
         </div>
     </div>
-    <div class="header-middle hidden">
+    <div class="header-middle">
         <div class="container">
             <div class="header-middle-inner">
-                <div class="logo">
+                <div class="logo" style="text-align: center;">
 					<?php do_action( 'kuteshop_get_logo' ); ?>
                 </div>
                 <div class="header-control">
 					<?php
-					do_action( 'kuteshop_search_form' );
-					do_action( 'kuteshop_header_mini_cart' );
+					// do_action( 'kuteshop_search_form' );
+					// do_action( 'kuteshop_header_mini_cart' );
 					?>
                     <div class="block-menu-bar">
                         <a class="menu-bar mobile-navigation" href="#">
