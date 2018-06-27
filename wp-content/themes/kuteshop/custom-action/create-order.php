@@ -21,7 +21,9 @@ if(isset($_POST['create-order'])) {
     $quant = isset($_POST['quant']) ? $_POST['quant'] : "";
     do_action('woocommerce_init');
     global $woocommerce;
-    $product = new WC_Product( $productId );
+    $_pf = new WC_Product_Factory();  
+
+    $product = $_pf->get_product($productId);
 
     $address = array(
         'first_name' => split_name($name)[0],
