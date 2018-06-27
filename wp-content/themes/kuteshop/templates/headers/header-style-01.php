@@ -50,19 +50,19 @@ if ( is_front_page() ) {
     <div class="header-middle">
         <div class="container">
             <div class="header-middle-inner">
-                <div class="logo" style="text-align: center;">
+                <div class="logo" style="text-align: center; width: 70%; float: left">
 					<?php do_action( 'kuteshop_get_logo' ); ?>
                 </div>
+				<div class="block-menu-bar" style="width: 30%; float: left; text-align: right">
+					<a class="menu-bar mobile-navigation" href="#" style="display: inline-block; margin-top: 10px">
+						<span class="flaticon-menu01"></span>
+					</a>
+				</div>
                 <div class="header-control">
 					<?php
 					// do_action( 'kuteshop_search_form' );
 					// do_action( 'kuteshop_header_mini_cart' );
 					?>
-                    <div class="block-menu-bar">
-                        <a class="menu-bar mobile-navigation" href="#">
-                            <span class="flaticon-menu01"></span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
