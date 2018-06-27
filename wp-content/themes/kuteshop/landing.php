@@ -38,6 +38,16 @@
 	.header-middle-inner{
 		padding: 0px;
 	}
+
+	header{
+		position: absolute !important;
+		z-index: 10;
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.header-border{
+		display: none;
+	}
 }
 </style>
 <?php
