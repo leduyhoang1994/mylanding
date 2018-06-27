@@ -19,7 +19,7 @@ if(isset($_POST['create-order'])) {
     $address = isset($_POST['address']) ? $_POST['address'] : "";
     $productId = isset($_POST['product-id']) ? $_POST['product-id'] : "";
     $quant = isset($_POST['quant']) ? $_POST['quant'] : "";
-    do_action('woocommerce_init');
+    
     global $woocommerce;
     $_pf = new WC_Product_Factory();  
 
