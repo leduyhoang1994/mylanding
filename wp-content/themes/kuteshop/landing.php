@@ -22,6 +22,12 @@
     bottom: -50px !important;
 }
 
+@media screen and (min-width: 768px) {
+	.header-middle-inner{
+		display: none;
+	}
+}
+
 @media screen and (max-width: 768px) {
     .landing-container{
         overflow-x: hidden;
