@@ -483,16 +483,16 @@ function my_textbox_callback($args) {  // Textbox Callback
 function get_phone( $atts ){
 	return get_option('phone');
 }
-add_shortcode( 'foobar', 'get_phone' );
+add_shortcode( 'get_phone', 'get_phone' );
 
 function get_address( $atts ){
 	return get_option('address');
 }
-add_shortcode( 'foobar', 'get_address' );
+add_shortcode( 'get_address', 'get_address' );
 
 function get_email( $atts ){
 	return get_option('email');
 }
-add_shortcode( 'foobar', 'get_email' );
+add_shortcode( 'get_email', 'get_email' );
 
 include 'custom-action/create-order.php';
