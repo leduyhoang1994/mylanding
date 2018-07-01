@@ -428,7 +428,7 @@ add_action('admin_init', 'my_general_section');
 function my_general_section() {  
     add_settings_section(  
         'my_settings_section', // Section ID 
-        'Cài đặt số điện thoại', // Section Title
+        'Cài đặt thông tin', // Section Title
         'my_section_options_callback', // Callback
         'general' // What Page?  This makes the section show up on the General Settings Page
     );
@@ -442,18 +442,57 @@ function my_general_section() {
         array( // The $args
             'phone' // Should match Option ID
         )  
+	); 
+	
+	add_settings_field( // Option 1
+        'address', // Option ID
+        'Địa chỉ', // Label
+        'my_textbox_callback', // !important - This is where the args go!
+        'general', // Page it will be displayed (General Settings)
+        'my_settings_section', // Name of our section
+        array( // The $args
+            'address' // Should match Option ID
+        )  
+    ); 
+	
+	add_settings_field( // Option 1
+        'email', // Option ID
+        'Email', // Label
+        'my_textbox_callback', // !important - This is where the args go!
+        'general', // Page it will be displayed (General Settings)
+        'my_settings_section', // Name of our section
+        array( // The $args
+            'email' // Should match Option ID
+        )  
     ); 
 
     register_setting('general','phone', 'esc_attr');
+    register_setting('general','address', 'esc_attr');
+    register_setting('general','email', 'esc_attr');
 }
 
 function my_section_options_callback() { // Section Callback
-    echo '<p>Cài đặt số điện thoại ở đây</p>';  
+    echo '<p>Cài đặt thông tin trang web ở đây</p>';  
 }
 
 function my_textbox_callback($args) {  // Textbox Callback
     $option = get_option($args[0]);
     echo '<input type="text" id="'. $args[0] .'" name="'. $args[0] .'" value="' . $option . '" />';
 }
+
+function get_phone( $atts ){
+	return get_option('phone');
+}
+add_shortcode( 'foobar', 'get_phone' );
+
+function get_address( $atts ){
+	return get_option('address');
+}
+add_shortcode( 'foobar', 'get_address' );
+
+function get_email( $atts ){
+	return get_option('email');
+}
+add_shortcode( 'foobar', 'get_email' );
 
 include 'custom-action/create-order.php';
