@@ -20,5 +20,10 @@ if ( is_front_page() ) {
     <i class="pe-7s-angle-up"></i>
 </a>
 <?php wp_footer(); ?>
+<a href="tel:+<?= get_option('phone') ?>">
+    <div id="callme">
+    <div id="callmeMain"></div>
+    </div>
+</a>
 </body>
 </html>
