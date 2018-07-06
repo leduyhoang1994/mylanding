@@ -355,7 +355,7 @@ function buy_now( $atts ){
 								</div>
 								<div class="col-md-8">
 									<div class="col-md-6"><input type="text" style="width: 100%;" name="name" placeholder="Họ tên" required></div>
-									<div class="col-md-6"><input type="text" style="width: 100%;" name="phone" placeholder="Số điện thoại" required></div>
+									<div class="col-md-6"><input type="text" style="width: 100%; margin-top:10px" name="phone" placeholder="Số điện thoại" required></div>
 									<div class="col-md-12"><input type="email" style="width: 100%; margin-top:10px" name="email" placeholder="Hòm thư điện tử" required></div>
 									<div class="col-md-12"><input type="text" style="width: 100%; margin-top:10px" name="address" placeholder="Địa chỉ" required></div>
 									<div class="col-md-12"><center>Chọn số lượng</center></div>
@@ -363,13 +363,15 @@ function buy_now( $atts ){
 										<div class="input-group" style="text-align: center; margin-top:10px">
 											<span class="input-group-btn">
 												<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-													<span class="dashicons dashicons-minus"></span>
+													<!-- <span class="dashicons dashicons-minus"></span> -->
+													-
 												</button>
 											</span>
 											<input style="width: 100px; display: inline-block; text-align:center" type="text" name="quant[1]" id="count-production" class="form-control input-number" value="1" min="1" max="20">
 											<span class="input-group-btn">
 												<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
-													<span class="dashicons dashicons-plus"></span>
+													<!-- <span class="dashicons dashicons-plus"></span> -->
+													+
 												</button>
 											</span>
 										</div>
@@ -389,7 +391,7 @@ function buy_now( $atts ){
 									</div>
 								</div>
 								<div class="col-md-12">
-									<input type="submit" href="" class="button" style="width: 100%; background-color: #f2a812" value="Mua ngay">
+									<input type="submit" href="" class="button" style="width: 100%; background-color: #f2a812; margin-top:10px" value="Mua ngay">
 								</div>
 							</div>
 							<div class="row">
