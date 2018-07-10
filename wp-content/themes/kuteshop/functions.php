@@ -420,7 +420,6 @@ function buy_now( $atts ){
 			</div>
 			</div>
 		</div>
-		<script src="<?= get_theme_file_uri( '/assets/js/custom.js' ) ?>"></script>
 	<?php
 	return ob_get_clean();
 }
