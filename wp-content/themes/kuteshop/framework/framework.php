@@ -251,10 +251,10 @@ if ( !class_exists( 'Kuteshop_framework' ) ) {
 				$width    = intval( $width );
 				$height   = intval( $height );
 				$vt_image = array(
-					'url'    => 'http://via.placeholder.com/' . $width . 'x' . $height,
+					'url'    => 'https://via.placeholder.com/' . $width . 'x' . $height,
 					'width'  => $width,
 					'height' => $height,
-					'img'    => '<img class="img-responsive" src="' . esc_url( 'http://via.placeholder.com/' . $width . 'x' . $height ) . '" ' . image_hwstring( $width, $height ) . ' alt="kuteshop">',
+					'img'    => '<img class="img-responsive" src="' . esc_url( 'https://via.placeholder.com/' . $width . 'x' . $height ) . '" ' . image_hwstring( $width, $height ) . ' alt="kuteshop">',
 				);
 
 				return $vt_image;
