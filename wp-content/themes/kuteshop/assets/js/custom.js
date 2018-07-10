@@ -11,10 +11,8 @@ function click_to_buy() {
     $(".click-to-buy").click();
 }
 
-$(document).ready(function() {
-    $(".click-to-call").click(function () {
-        $("#callmeMain").click();
-    });
+$(".click-to-call").click(function () {
+    $("#callmeMain").click();
 });
 
 //plugin bootstrap minus and plus
