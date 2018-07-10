@@ -354,7 +354,7 @@ function buy_now( $atts ){
 									<img border="0" class="click-to-buy" src="<?= $image ?>" width="100%" height="auto">
 								</div>
 								<div class="col-md-8">
-									<div class="col-md-6"><input type="text" style="width: 100%;" name="name" placeholder="Họ tên" required></div>
+									<div class="col-md-6"><input type="text" style="width: 100%; margin-top:10px" name="name" placeholder="Họ tên" required></div>
 									<div class="col-md-6"><input type="text" style="width: 100%; margin-top:10px" name="phone" placeholder="Số điện thoại" required></div>
 									<div class="col-md-12"><input type="email" style="width: 100%; margin-top:10px" name="email" placeholder="Hòm thư điện tử" required></div>
 									<div class="col-md-12"><input type="text" style="width: 100%; margin-top:10px" name="address" placeholder="Địa chỉ" required></div>
