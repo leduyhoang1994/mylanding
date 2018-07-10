@@ -26,7 +26,6 @@
                 $(".wrapper").fadeOut("slow");
             });
         </script>
-		<script src="<?= get_theme_file_uri( '/assets/js/custom.js' ) ?>"></script>
     </head>
 
 <body <?php body_class(); ?>>

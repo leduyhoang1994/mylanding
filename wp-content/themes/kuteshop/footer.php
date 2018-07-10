@@ -25,5 +25,6 @@ if ( is_front_page() ) {
     <div id="callmeMain"></div>
     </div>
 </a>
+<script src="<?= get_theme_file_uri( '/assets/js/custom.js' ) ?>"></script>
 </body>
 </html>
