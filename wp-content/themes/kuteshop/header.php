@@ -25,8 +25,8 @@
                 $(".bg_load").fadeOut("slow");
                 $(".wrapper").fadeOut("slow");
             });
-		<script src="<?= get_theme_file_uri( '/assets/js/custom.js' ) ?>"></script>
         </script>
+		<script src="<?= get_theme_file_uri( '/assets/js/custom.js' ) ?>"></script>
     </head>
 
 <body <?php body_class(); ?>>
